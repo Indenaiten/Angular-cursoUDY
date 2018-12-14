@@ -9,16 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit{
   //ATTRIBUTES
-  public title: string = "App Clientes";
+  public title:string = "App Clientes";
 
   //METHODS
   //CONSTRUCTOR
-  constructor(){
+  public constructor(){
 
   }
 
   //INIT
-  ngOnInit(){
+  public ngOnInit(){
 
   }
 }//END OF HEADER COMPONENT

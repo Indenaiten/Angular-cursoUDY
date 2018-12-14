@@ -9,16 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit{
   //ATTRIBUTES
-  public author: string = "Ángel Herce Soto";
-  
+  public author:string = "Ángel Herce Soto";
+
   //METHODS
   //CONSTRUCTOR
-  constructor(){
+  public constructor(){
 
   }
 
   //INIT
-  ngOnInit(){
+  public ngOnInit(){
 
   }
 }//END OF FOOTER COMPONENT

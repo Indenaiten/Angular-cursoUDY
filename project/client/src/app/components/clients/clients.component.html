@@ -1,0 +1,60 @@
+<!-- CONTENT -->
+<main id="content">
+  <!-- CONTAINER OF CLIENTS -->
+  <div id="contClients" class="card border-dark mb-3">
+    <!-- HEADER OF CONTAINER -->
+    <div class="card-header bg-dark text-white">Clientes</div>
+
+    <!-- BODY OF CARD -->
+    <div class="card-body text-dark">
+      <!-- TITLE OF TABLE -->
+      <h5 class="card-title">Listado de clientes</h5>
+
+        <!-- TABLE OF CLIENTS -->
+        <table id="clientsTable" class="table table-bordered table-striped">
+          <!-- HEADER OF TABLE -->
+          <thead class="thead-dark">
+            <!-- HEADERS OF TABLE -->
+            <tr>
+              <th>Id</th>
+              <th>Nombre</th>
+              <th>Apellido 1</th>
+              <th>Apellido 2</th>
+              <th>Fecha de Nacimiento</th>
+              <th>Email</th>
+              <th>Creado en</th>
+            </tr><!-- END OF HEADERS OF TABLE -->
+          </thead><!-- END OF HEADER OF TABLE -->
+
+          <!-- BODY OF TABLE -->
+          <tbody>
+            <!-- CLIENTS -->
+            <tr *ngFor="let clt of clients">
+              <td>{{ clt.id }}</td>
+              <td>{{ clt.name }}</td>
+              <td>{{ clt.lastname1 }}</td>
+              <td>{{ clt.lastname2 }}</td>
+              <td>{{ clt.birthdate }}</td>
+              <td>{{ clt.email }}</td>
+              <td>{{ clt.createdAt }}</td>
+            </tr>
+            <!-- END OF CLIENTS -->
+          </tbody><!-- END OF BODY OF TABLE -->
+
+          <!-- FOOTER OF TABLE -->
+          <tfoot class="thead-dark">
+            <!-- HEADERS OF TABLE -->
+            <tr>
+              <th>Id</th>
+              <th>Nombre</th>
+              <th>Apellido 1</th>
+              <th>Apellido 2</th>
+              <th>Fecha de Nacimiento</th>
+              <th>Email</th>
+              <th>Creado en</th>
+            </tr><!-- END OF HEADERS OF TABLE -->
+          </tfoot><!-- END OF FOOTER OF TABLE -->
+        </table><!-- END OF TABLE OF CLIENTS -->
+    </div><!-- END OF BODY OF CARD -->
+  </div><!-- END OF CONTAINER OF CLIENTS -->
+</main><!-- END OF CONTENT -->

@@ -9,16 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit{
   //ATTRIBUTES
-  public options: string[] = [ "Option 1", "Option 2", "Option 3", "Option 4", "Option 5" ];
+  public options:string[] = [ "Option 1", "Option 2", "Option 3", "Option 4", "Option 5" ];
 
   //METHODS
   //CONSTRUCTOR
-  constructor(){
+  public constructor(){
 
   }
 
   //INIT
-  ngOnInit(){
+  public ngOnInit(){
 
   }
 }//END OF NAV COMPONENT

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ClientsComponent } from './components/clients/clients.component';
 
 //APP MODULE CLASS
 @NgModule({
@@ -15,7 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent, //APP COMPONENT
     HeaderComponent, //HEADER COMPONENT
     NavComponent, //NAV COMPONENT
-    FooterComponent //FOOTER COMPONENT
+    FooterComponent, //FOOTER COMPONENT
+    ClientsComponent, //CLIENTS COMPONENT
   ],
 
   //IMPORTS
