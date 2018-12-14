@@ -1,0 +1,34 @@
+/*--------------------------------------------------*/
+/*---| FOOTER COMPONENT CSS |-----------------------*/
+/*--------------------------------------------------*/
+
+  /* FOOTER */
+/*--------------------------------------------------*/
+  #footer{ /* CONTAINER */
+    height: 50px;
+    background-color: #555;
+    color: #FFF;
+    padding: 0 5%;
+  }
+
+  #footer>.side{ /* ALL SIDES OF FOOTER */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer>.left.side{ /* LEFT SIDE OF FOOTER */
+    align-items: flex-start;
+  }
+
+  #footer>.center.side{ /* CENTER SIDE OF FOOTER */
+    align-items: center;
+  }
+
+  #footer>.right.side{ /* RIGHT SIDE OF FOOTER */
+    align-items: flex-end;
+  }
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/

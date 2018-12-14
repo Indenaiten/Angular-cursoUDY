@@ -1,0 +1,29 @@
+/*--------------------------------------------------*/
+/*---| HEADER COMPONENT CSS |-----------------------*/
+/*--------------------------------------------------*/
+
+  /* HEADER */
+/*--------------------------------------------------*/
+  #header{ /* CONTAINER */
+    height: 100px;
+    background-color: #555;
+    color: #FFF;
+    padding: 0 5%;
+  }
+
+  #header>.side{ /* ALL SIDES OF HEADER */
+    display: flex;
+    align-items: center;
+  }
+
+  #header>.left.side{ /* LEFT SIDE OF HEADER */
+    justify-content: flex-start;
+  }
+
+  #header>.right.side{ /* RIGHT SIDE OF HEADER */
+    justify-content: flex-end;
+  }
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
